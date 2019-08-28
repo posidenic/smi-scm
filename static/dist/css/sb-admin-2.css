@@ -92,7 +92,8 @@ body {
   margin-top: 10px;
 }
 .sidebar ul li a.active {
-  background-color: #eeeeee;
+  background-color: #999;
+  border-radius: 5px;
 }
 .sidebar .arrow {
   float: right;
