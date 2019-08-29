@@ -16,12 +16,14 @@ export default new Router({
     {
         path: '/index',
         name: 'index',
-        component: Index
-    },
-    {
-        path: '/usermanage',
-        name: 'usermanage',
-        component: UserManage
-    },
+        component: Index,
+        children:[
+            {
+                path: 'usermanage',
+                name: 'usermanage',
+                component: UserManage
+            },
+        ]
+    }
     ]
 })
