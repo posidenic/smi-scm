@@ -34,9 +34,11 @@
             </a>
             <ul class="dropdown-menu dropdown-user">
               <li>
-                <a href="login.html">
+                <!-- <a href="login.html">
                   <i class="fa fa-sign-out fa-fw"></i> 退出登录
-                </a>
+                </a> -->
+                <router-link to="/login">
+                <i class="fa fa-sign-out fa-fw"></i> 退出登录</router-link>
               </li>
             </ul>
             <!-- /.dropdown-user -->
