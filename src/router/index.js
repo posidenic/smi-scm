@@ -42,7 +42,8 @@ const router =  new Router({
 
 // 路由守卫
 router.beforeEach(function(to,from,next){
-    const isLogin = localStorage.smi_login?true:false;
+    
+    const isLogin = sessionStorage.smi_login?true:false;
     if(to.path==="/login"){
         next();
     }else{

@@ -45,7 +45,7 @@ export default {
         login:function(){
             console.log(this.username,this.password)
             if(this.username==="hans"&&this.password==="123"){
-                localStorage.smi_login=true;
+                sessionStorage.smi_login=true;
                 this.$router.push({path:'/index'})
             }
         }
