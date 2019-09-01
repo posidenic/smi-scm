@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '@/components/index'
 import Login from '@/components/login'
 import UserManage from '@/components/usermanage'
+import UserAdd from '@/components/useradd'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
                 path: 'usermanage',
                 name: 'usermanage',
                 component: UserManage
+            },
+            {
+                path: 'useradd',
+                name: 'useradd',
+                component: UserAdd
             },
         ]
     }

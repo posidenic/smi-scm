@@ -61,7 +61,8 @@
                     <router-link to="/index/usermanage">用户管理</router-link>
                   </li>
                   <li>
-                    <a href="morris.html">添加用户</a>
+                    <!-- <a href="morris.html">添加用户</a> -->
+                    <router-link to="/index/useradd">用户添加</router-link>
                   </li>
                 </ul>
                 <!-- /.nav-second-level -->
