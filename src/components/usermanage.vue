@@ -4,7 +4,7 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           用户管理
-          <button type="button" class="btn btn-success btn-sm">✚&nbsp;新增用户</button>
+          <button type="button" class="btn btn-success btn-sm">✚&nbsp;<router-link to="/index/useradd">新增用户</router-link></button>
         </div>
         <div class="panel-body">
           <div class="row">
@@ -266,7 +266,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .panel {
   margin-bottom: 10px;
 }
