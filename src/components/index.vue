@@ -134,7 +134,11 @@
 
 <script>
 export default {
-  name: "HelloWorld"
+  name: "HelloWorld",
+  created:function(){
+      // location.reload()
+
+  }
   
 };
 </script>

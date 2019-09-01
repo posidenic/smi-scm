@@ -7,7 +7,7 @@ import UserAdd from '@/components/useradd'
 
 Vue.use(Router)
 
-export default new Router({
+const router =  new Router({
     mode: 'history',
     routes: [{
         path: '/',
@@ -39,3 +39,15 @@ export default new Router({
     }
     ]
 })
+
+// 路由守卫
+router.beforeEach(function(to,from,next){
+    const isLogin = localStorage.smi_login?true:false;
+    if(to.path==="/login"){
+        next();
+    }else{
+        isLogin?next():next("/login")
+    }
+})
+
+export default router

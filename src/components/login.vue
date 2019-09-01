@@ -10,10 +10,10 @@
                         <form role="form">
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+                                    <input v-model="username" class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                    <input v-model="password" class="form-control" placeholder="Password" name="password" type="password" value="">
                                 </div>
                                 <div class="checkbox">
                                     <label>
@@ -21,7 +21,7 @@
                                     </label>
                                 </div>
                                 <!-- Change this to a button or input when using this as a form -->
-                                <a href="index.html" class="btn btn-lg btn-success btn-block">Login</a>
+                                <a href="index.html" @click.prevent="login" class="btn btn-lg btn-success btn-block">Login</a>
                             </fieldset>
                         </form>
                     </div>
@@ -33,6 +33,25 @@
 
 <script>
 export default {
+
+    data(){
+        return{
+            username:'',
+            password:''
+
+        }
+    },
+    methods:{
+        login:function(){
+            console.log(this.username,this.password)
+            if(this.username==="hans"&&this.password==="123"){
+                localStorage.smi_login=true;
+                this.$router.push({path:'/index'})
+            }
+        }
+    },
+    created(){
+    }
     
 }
 </script>
