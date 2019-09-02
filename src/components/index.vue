@@ -75,7 +75,8 @@
                   <router-link to="/index/storehousemanage">仓库管理</router-link>
                 </li>
                 <li>
-                  <a href="morris.html">SKU管理</a>
+                  <!-- <a href="morris.html">SKU管理</a> -->
+                  <router-link to="/index/skumanage">SKU管理</router-link>
                 </li>
                 <li>
                   <a href="morris.html">SKU分类管理</a>

@@ -81,9 +81,9 @@
             <div class="col-lg-6">
               <span>按属性</span>
               <div>
-                <button class="btn btn-primary btn-xs">全部</button>
-                <button class="btn btn-default btn-xs">大仓</button>
-                <button class="btn btn-default btn-xs">小仓</button>
+                <button class="btn btn-primary btn-sm">全部</button>
+                <button class="btn btn-default btn-sm">大仓</button>
+                <button class="btn btn-default btn-sm">小仓</button>
               </div>
             </div>
           </div>
@@ -91,9 +91,9 @@
             <div class="col-lg-6">
               <span>按状态</span>
               <div>
-                <button class="btn btn-primary btn-xs">全部</button>
-                <button class="btn btn-default btn-xs">正常</button>
-                <button class="btn btn-default btn-xs">已删除</button>
+                <button class="btn btn-primary btn-sm">全部</button>
+                <button class="btn btn-default btn-sm">正常</button>
+                <button class="btn btn-default btn-sm">已删除</button>
               </div>
             </div>
           </div>
