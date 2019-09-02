@@ -223,7 +223,7 @@
                     </a>
                   </li>
                 </ul>
-                <div class="totalCount">232323</div>
+                <div class="totalCount">1234</div>
               </nav>
               <!-- 分页 -->
             </div>
@@ -283,6 +283,10 @@ export default {
 .panel-heading > button {
   float: right;
   margin-top: -5px;
+  color: #fff;
+}
+.panel-heading > button>a {
+  color: #fff;
 }
 
 .input-group {
@@ -389,11 +393,29 @@ hr {
     color: #fff;
     background-color: rgba(253, 109, 100, 1);
     border-color: rgba(253, 109, 100, 1);
+    border: 0;
+    outline: none;
+}
+.btn-danger:active {
+    color: #fff;
+    background-color: rgba(253, 109, 100, 1);
+    border-color: rgba(253, 109, 100, 1);
+    border: 0;
+    outline: none;
 }
 .btn-primary {
     color: #fff;
     background-color: rgba(59, 203, 237, 1);
     border-color: rgba(59, 203, 237, 1);
+        border: 0;
+    outline: none;
+}
+.btn-primary:active {
+    color: #fff;
+    background-color: rgba(59, 203, 237, 1);
+    border-color: rgba(59, 203, 237, 1);
+        border: 0;
+    outline: none;
 }
 
 </style>

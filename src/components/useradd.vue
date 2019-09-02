@@ -244,6 +244,10 @@ export default {
   color: #333;
   background-color: #fff;
   border-color: #ddd;
+  font-weight: 700;
+}
+.panel-default > .panel-heading>button>a {
+  color: #fff;
 }
 
 .panel-default > div:first-child > button {

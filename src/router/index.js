@@ -4,6 +4,7 @@ import Index from '@/components/index'
 import Login from '@/components/login'
 import UserManage from '@/components/usermanage'
 import UserAdd from '@/components/useradd'
+import StorehouseManage from '@/components/storehousemanage'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ const router =  new Router({
                 path: 'useradd',
                 name: 'useradd',
                 component: UserAdd
+            },
+            {
+                path: 'storehousemanage',
+                name: 'storehousemanage',
+                component: StorehouseManage
             },
         ]
     }

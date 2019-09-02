@@ -71,7 +71,8 @@
               </a>
               <ul class="nav nav-second-level">
                 <li>
-                  <a href="flot.html">仓库管理</a>
+                  <!-- <a href="flot.html">仓库管理</a> -->
+                  <router-link to="/index/storehousemanage">仓库管理</router-link>
                 </li>
                 <li>
                   <a href="morris.html">SKU管理</a>
@@ -147,7 +148,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #smi-logo {
   color: #333;
   font-size: 20px;

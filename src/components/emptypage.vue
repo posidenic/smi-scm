@@ -26,7 +26,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .panel-default > .panel-heading {
   color: #333;
   background-color: #fff;
